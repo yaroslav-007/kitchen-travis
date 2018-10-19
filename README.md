@@ -37,3 +37,4 @@ In the terminal run the following commands:
 	kitchen converge
 	kitchen verify
 	kitchen destroy
+![Screenshot of the test](./screenshots/test-screenshot.png)
