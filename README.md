@@ -29,14 +29,11 @@ all pre-requirementa to make this work here:
 
 ## How to run the code
 In the terminal run the following commands:
-	```
+	
 	packer build template.json
 	vagrant box add --name redis64 --provider virtualbox vagrant box ubuntu-1604-vbox.box
 	kitchen init
 	kitchen list
 	kitchen converge
 	kitchen verify
-	kitchen destroy 
-	```
-
-
+	kitchen destroy
